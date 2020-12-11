@@ -1,0 +1,17 @@
+<?php
+
+use \Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bgg_search_help($route_name, RouteMatchInterface $route_match) {
+
+  switch ($route_name){
+    case 'help.page.bgg_search':
+      $out = '';
+      $out .= '<h3>' . t('Search for BoardGame') . '</h3>';
+      return $out;
+    default:
+  }
+}

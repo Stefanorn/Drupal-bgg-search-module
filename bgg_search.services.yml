@@ -1,0 +1,8 @@
+services:
+  bgg_search.BggApi:
+    class: Drupal\bgg_search\BggApi
+  bgg_search.DataBaseService:
+    class: Drupal\bgg_search\DataBaseService
+  bgg_search.DataCleaning:
+    class: Drupal\bgg_search\DataCleaning
+

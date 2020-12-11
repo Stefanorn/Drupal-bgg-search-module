@@ -1,0 +1,7 @@
+name: bgg search
+description: Module that allows you to search for a boardgame on board game geek
+type: module
+core_version_requirement: ^9
+package: Custom
+dependencies:
+  - drupal:media

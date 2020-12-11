@@ -1,0 +1,6 @@
+entity.boardgame.collection:
+  title: 'BoardGame List'
+  route_name: entity.boardgame.collection
+  description: 'List BoardGame entities'
+  parent: system.admin_structure
+  weight: 100

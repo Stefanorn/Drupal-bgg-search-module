@@ -1,0 +1,13 @@
+entity.bordgame.canonical:
+  route_name: entity.bordgame.canonical
+  base_route: entity.bordgame.canonical
+  title: 'View'
+entity.bordgame.edit_form:
+  route_name: entity.bordgame.edit_form
+  base_route: entity.bordgame.canonical
+  title: 'Edit'
+entity.bordgame.delete_form:
+  route_name: entity.bordgame.delete_form
+  base_route: entity.bordgame.canonical
+  title: Delete
+  weight: 10

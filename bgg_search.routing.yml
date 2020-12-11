@@ -1,0 +1,15 @@
+bgg_search.FingBggForm:
+  path: '/findbggform'
+  defaults:
+    _form: Drupal\bgg_search\Form\BggSearchForm
+    _title: 'Search For board game Form'
+  requirements:
+    _permission: 'access content'
+
+bgg_search.autocomplete:
+  path: '/autocomplete'
+  defaults:
+    _controller: Drupal\bgg_search\Controller\BggSearchController::autocomplete
+    _format: 'json'
+  requirements:
+    _permission: 'access content'
